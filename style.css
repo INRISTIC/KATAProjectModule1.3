@@ -321,6 +321,10 @@ ul {
     height: 176px;
 }
 
+.container__brand {
+        width: 320px;
+    }
+
 @media (min-width: 768px) {
     .main__text {
         width: 312px;
@@ -394,6 +398,10 @@ ul {
         position: static;
         width: 100%;
         height: auto;
+    }
+    
+    .container__brand {
+        width: 360px;
     }
 }
 
