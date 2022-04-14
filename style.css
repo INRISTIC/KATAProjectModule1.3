@@ -298,7 +298,7 @@ ul {
 }
 
 .main__icon--bottom {
-    background: url("./assets/img/icon-arrow.svg") center center no-repeat transparent;
+    background: url("/assets/img/icon-arrow.svg") center center no-repeat transparent;
     background-size: contain;
     width: 7.41px;
     height: 10.29px;
@@ -322,9 +322,13 @@ ul {
 }
 
 .container__brand {
-        width: 320px;
-    }
+    width: 320px;
+}
 
+
+.main__img--size {
+    width: 320px;
+}
 @media (min-width: 768px) {
     .main__text {
         width: 312px;
@@ -399,9 +403,8 @@ ul {
         width: 100%;
         height: auto;
     }
-    
     .container__brand {
-        width: 360px;
+        width: 20%;
     }
 }
 
@@ -466,5 +469,9 @@ ul {
         align-items: center;
         margin-left: 16px;
         flex-wrap: wrap;
+    }
+
+    .container__brand {
+        width: 40%;
     }
 }
