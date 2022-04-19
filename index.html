@@ -1,80 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Default slider</title>
-    <link rel="stylesheet" href="./swiper.min.css" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body class="container">
-    <div class="container__heading">Ремонт техники различных брендов</div>
-    <div class="slider-container">
-      <div class="swiper-container" data-mobile="false">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide card">
-            <img src="./assets/icon/lenovo.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Block4</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__left">
+              <button class="header__btn--burger" title="Кнопка Бургер">
+                <img src="assets/img/icon-burger.svg" alt="Иконка Бургера" class="header__icon">
+              </button>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/samsung.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <span class="header__btn--divider"> </span>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/apple.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <button class="header__btn--logo" title="Логотип">
+                <img src="assets/img/logo.svg" alt="Иконка Логотипа">
+              </button>
+            </div>
+            <div class="header-right">
+              <button class="header__btn--call" title="Кнопка Звонка">
+                <img src="assets/img/icon-call.svg" alt="Иконка Звонка" class="header__icon--768">
+              </button>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/viemsonic.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <button class="header__btn--chat" title="Кнопка чата">
+                <img src="assets/img/icon-chat.svg" alt="Иконка чата" class="header__icon--768">
+              </button>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/bosch.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <button class="header__btn__profile" title="Кнопка Профиля">
+                <img src="assets/img/icon-profile.svg" class="header__icon--768"  alt="Иконка Профиля">
+              </button>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/hp.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <span class="header__btn--divider2"> </span>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/acer.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <button class="header__btn--repair" title="Кнопка Ремонта">
+                <img src="assets/img/icon-repair.svg" alt="Иконка Ремонта" class="header__icon">
+              </button>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/sony.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <button class="header__btn--search" title="Кнопка Поиска">
+                <img src="assets/img/icon-search.svg" alt="Иконка Поиска" class="header__icon">
+              </button>
+            </div>
+          </header>
+        <main class="main">
+          <div class="main-header">
+            <div class="main__header--left">
+                <span class="main__highlight"></span>
+                <h1 class="main__heading">
+                    Услуги и сервисы
+                </h1>
+            </div>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/lenovo.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+            <div class="main__header--right">
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/lenovo.png" alt="" />
-            <a><span class="slider-icon"></span></a>
-          </div>
+              <div class="main__header-icon-text">Оставить заявку</div>
+              <button class="main__btn--repair" title="Кнопка заявки">
+                <img src="assets/img/icon-repair.svg" alt="иконка кнопки ремонт" class="header__icon--1120">
+              </button>
 
-          <div class="swiper-slide card">
-            <img src="./assets/icon/lenovo.png" alt="" />
-            <a><span class="slider-icon"></span></a>
+              <div class="main__header-icon-text">Статус ремонта</div>
+              <button class="main__btn--search" title="кнопка статус ремонта">
+                <img src="assets/img/icon-search.svg" alt="иконка кнопки поиск" class="header__icon--1120">
+              </button>
+
+            </div>
           </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <button class="container__button">
-        <span class="container__icon"></span>
-        <div class="container__text">Показать всё</div>
-      </button>
+          <nav class="main__navigation">
+            <ul class="main__list">
+                <li class="main__item main__item--1120"><a class="main__link" href="#" title="Ссылка Ремонтируемые бренды">Ремонтируемые бренды</a></li>
+                <li class="main__item"><a class="main__link" href="#" title="Ссылка Ремонтируемые устройства">Ремонтируемые устройства</a></li>
+                <li class="main__item"><a class="main__link" href="#" title="Ссылка Дополнительные устройства">Дополнительные устройства</a></li>
+                <li class="main__item"><a class="main__link" href="#" title="Ссылка Цены на услуги">Цены на услуги</a></li>
+                <li class="main__item"><a class="main__link" href="#" title="Ссылка Адреса сервисных центров">Адреса сервисных центров</a></li>
+                <li class="main__item"><a class="main__link" href="#" title="Ссылка Специальные цены">Специальные цены</a></li>
+                <li class="main__item main__item--1120"><a class="main__link" href="#" title="Ссылка Отзывы">Отзывы</a></li>
+            </ul>
+          </nav>
+            <div class="base">
+              <div class="main__base-left">
+                <p class="main__text">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией 
+                    производителя.
+                    <br>
+                    <br>
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов.
+                    Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                </p>
+                <div class="main__continue">
+                    <span class="main__icon--bottom"></span>
+                    <button class="main__continue--text">Читать далее</button>
+                </div>
+              </div>
+              <div class="container__brand">
+                <img src="assets/img/brand.jpg" alt="CPS" class="main__img--size">
+              </div>
+            </div>
+        </main>
     </div>
-    <script src="script/swiper.min.js"></script>
-    <script src="script/slider.js"></script>
-  </body>
+</body>
 </html>
